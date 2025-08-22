@@ -95,12 +95,6 @@
   object-fit: contain;
 }
 
-.nav-title h1 {
-  color: #fff;
-  margin: 0;
-  font-size: 1.6rem;
-}
-
 .nav-links {
   display: flex;
   gap: 20px;
@@ -297,115 +291,6 @@ h1, h2, h3, h4, h5 {
   padding: 2em;
   align-items: center;
 }
-
-/* Image Column */
-.image-col {
-  flex: 3;
-  background-color: #d0e6ff;
-  background-image: url('https://via.placeholder.com/800x500');
-  background-size: cover;
-  background-position: center;
-  min-height: 400px;
-  border-radius: 12px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* Optional: Actual Image Tag (on top of background image) */
-.journal-banner {
-  width: 100%;
-  max-width: 100%;
-  height: auto;
-  border-radius: 12px;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease;
-}
-
-.journal-banner:hover {
-  transform: scale(1.02);
-}
-
-@media (max-width: 768px) {
-  .intro-section {
-    margin-top: 10px;
-  }
-}
-
-
-/* Override for text-col inside intro-section only */
-.intro-text-col {
-  flex: 1;
-  background-color: #f8e9f0; /* pastel pink base, you can swap with mint (#e9f8f2) or lavender (#ede9f8) */
-  padding: 30px 24px;
-  border-radius: 20px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  
-  /* Typography */
-  font-family: "Poppins", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  font-size: 0.75rem; /* ~50% smaller than normal */
-  text-transform: none; /* ensures sentence case */
-  line-height: 1.6;
-  letter-spacing: 0.3px;
-  color: #333;
-
-  /* Smooth card hover effect */
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-}
-
-.intro-text-col:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
-}
-
-/* Headings */
-.intro-text-col h2 {
-  font-size: 2rem;
-  color: #0F4D92;
-  margin-bottom: 0.75em;
-  font-weight: 700;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
-  position: relative;
-}
-
-.intro-text-col h2::after {
-  content: "";
-  display: block;
-  width: 50px;
-  height: 4px;
-  background: linear-gradient(90deg, #0F4D92, #00bfff);
-  margin-top: 10px;
-  border-radius: 2px;
-}
-
-
-/* Responsive */
-@media screen and (max-width: 768px) {
-  .intro-section {
-    flex-direction: column;
-  }
-
-  .image-col, .intro-text-col {
-    flex: 1 1 100%;
-    min-height: auto;
-  }
-
-  .intro-text-col {
-    text-align: center;
-    padding: 25px 20px;
-  }
-
-  .intro-text-col h2 {
-    font-size: 1.6rem;
-  }
-
-  .intro-text-col p {
-    font-size: 1rem;
-  }
-}
-
 
 /* SECTION: Item List */
 

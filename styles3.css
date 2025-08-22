@@ -194,7 +194,7 @@
 
 /* Hero Section */
 .hero-header {
-  height: 50vh;
+  height: 60vh;
   background: url("images/images-31.png") center/cover no-repeat;
   display: flex;
   align-items: center;
@@ -202,12 +202,13 @@
 }
 
 .hero-content-box {
-  background-color: rgba(0, 51, 102, 0.6);
+  background-color: rgba(0, 51, 102, 0.9);
   padding: 2em 3em;
   border-radius: 12px;
   box-shadow: 0 0 20px 5px #00ffff, 0 4px 10px rgba(0, 0, 0, 0.8);
   color: white;
   text-align: center;
+  max-width: 500px;
 }
 
   .hero-content-box h1 {
@@ -336,7 +337,7 @@ h1, h2, h3, h4, h5 {
 /* Override for text-col inside intro-section only */
 .intro-text-col {
   flex: 1;
-  background-color: #fff;
+  background-color: #000055;
   padding: 40px 30px;
   border-radius: 16px;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);

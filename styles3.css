@@ -208,7 +208,7 @@
   box-shadow: 0 0 20px 5px #00ffff, 0 4px 10px rgba(0, 0, 0, 0.8);
   color: white;
   text-align: center;
-  max-width: 500px;
+  max-width: 900px;
 }
 
   .hero-content-box h1 {
@@ -337,12 +337,21 @@ h1, h2, h3, h4, h5 {
 /* Override for text-col inside intro-section only */
 .intro-text-col {
   flex: 1;
-  background-color: #000055;
-  padding: 40px 30px;
-  border-radius: 16px;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
-  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #f8e9f0; /* pastel pink base, you can swap with mint (#e9f8f2) or lavender (#ede9f8) */
+  padding: 30px 24px;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  
+  /* Typography */
+  font-family: "Poppins", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 0.75rem; /* ~50% smaller than normal */
+  text-transform: none; /* ensures sentence case */
+  line-height: 1.6;
+  letter-spacing: 0.3px;
+  color: #333;
+
+  /* Smooth card hover effect */
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 .intro-text-col:hover {

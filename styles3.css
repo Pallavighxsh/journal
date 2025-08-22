@@ -202,7 +202,7 @@
 }
 
 .hero-content-box {
-  background-color: rgba(0, 51, 102, 0.9);
+  background-color: rgba(0, 51, 102, 0.6);
   padding: 2em 3em;
   border-radius: 12px;
   box-shadow: 0 0 20px 5px #00ffff, 0 4px 10px rgba(0, 0, 0, 0.8);
@@ -370,20 +370,6 @@ h1, h2, h3, h4, h5 {
   border-radius: 2px;
 }
 
-/* Paragraphs */
-.intro-text-col p {
-  font-size: 1.15rem;
-  color: #444;
-  line-height: 1.8;
-  margin-bottom: 1em;
-  font-weight: 400;
-}
-
-/* Emphasis within paragraph */
-.intro-text-col p strong {
-  color: #0F4D92;
-  font-weight: 600;
-}
 
 /* Responsive */
 @media screen and (max-width: 768px) {

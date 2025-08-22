@@ -200,6 +200,23 @@
   }
 }
 
+/* Apply Poppins to nav + footer */
+.nav-links a,
+.nav-dropdown > a,
+.nav-title h1,
+.footer {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Use Bebas Neue for logo/title (Charlevoix Pro replacement) */
+.nav-title h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+
 /* Universal Rounded Box Container */
 .rounded-container {
   border: 2px solid #0F4D92;

@@ -325,8 +325,8 @@ h1, h2, h3, h4, h5 {
 .banner-intro-section {
   display: flex;
   flex-wrap: wrap;
-  padding: 4em 2em;
-  gap: 2em;
+  padding: 2em 2em;
+  gap: 1em;
   align-items: center;
   background-color: #f8faff;
   justify-content: center;
@@ -345,7 +345,7 @@ h1, h2, h3, h4, h5 {
 
 .intro-text {
   flex: 1;
-  padding: 2em;
+  padding: 1em;
   max-width: 500px;
 }
 
